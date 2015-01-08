@@ -1,3 +1,7 @@
+## What is it?
+**skip** allows you to, ahem, skip specified number of lines from stdin in your shell scripts.
+
+
 ## Install
 Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
 ```shell
