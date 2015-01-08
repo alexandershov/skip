@@ -4,8 +4,8 @@ skip () {
     return 1
   fi
   n_lines_to_skip="$1"
-  n_lines_to_skip=$((n_lines_to_skip+1))
+  start_with_line=$((n_lines_to_skip+1))
   shift
 
-  tail "+$n_lines_to_skip" "$@"
+  tail "+$start_with_line" "$@"
 }
