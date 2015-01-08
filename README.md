@@ -10,6 +10,7 @@ Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
 
 ## Usage
 ```shell
+# skip first line from stdin
 $ cat moby-dick.txt | skip 1
 Some years ago — never mind how long precisely -
 having little or no money
@@ -17,8 +18,8 @@ having little or no money
 ```
 Or:
 ```shell
-$ skip 1 moby-dick.txt
-Some years ago — never mind how long precisely -
+# skip first two lines from file
+$ skip 2 moby-dick.txt
 having little or no money
 ...
 ```
