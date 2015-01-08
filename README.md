@@ -20,4 +20,4 @@ having little or no money
 ```
 
 ## Requirements
-GNU tail
+GNU tail (your system probably have it)
